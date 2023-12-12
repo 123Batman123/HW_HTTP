@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <main class="main">
+    <div class="main-container">
+        <div class="add">
+            <button class="add-button">Добавить тикет</button>
+        </div>
+        <div class="fields-container">
+            <img
+              id="loader"
+              class="loader invisible"
+              src="https://i.postimg.cc/66SGMVs5/mcru-ajax-loader.gif"
+            />
+            <div class="confirm-deletion invisible">
+              Вы уверены?
+              <div class="button-container">
+                <button class="yes">Да</button>
+                <button class="no">Нет</button>
+              </div>
+            </div>    
+        </div>
+    </div>
+    <div class="create-update">
+      <form class="create-form invisible">
+        <h2 class="title">Добавить тикет</h2>
+        <div class="input-conteiner">
+          <label class="label-form">
+            <h4 class="title-description">Краткое описание</h4>
+            <input class="name input" name="name" required>
+          </label>
+          <label class="label-form">
+            <h4 class="title-description">Подробное описание</h4>
+            <textarea class="description input" name="description"></textarea>
+          </label>
+        </div>
+        <div class="button-container">
+          <button class="button-post button">Отправить</button>
+          <button class="button-cansel button">Отменить</button>
+        </div>
+      </form>
+      <form class="update-form invisible">
+        <h2 class="title">Изменить тикет</h2>
+        <div class="input-conteiner">
+          <label class="label-form">
+            <h4 class="title-description">Краткое описание</h4>
+            <input class="name input" name="name" required>
+          </label>
+          <label class="label-form">
+            <h4 class="title-description">Подробное описание</h4>
+            <textarea class="description input" name="description"></textarea>
+          </label>
+        </div>
+        <div class="button-container">
+          <button class="button-post button">Отправить</button>
+          <button class="button-cansel button">Отменить</button>
+        </div>
+      </form>
+    </div>
+  </main>
+</body>
+</html>
